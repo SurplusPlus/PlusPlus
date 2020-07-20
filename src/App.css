@@ -1,0 +1,27 @@
+.App {
+  color: white;
+  background-color: black;
+}
+
+.info {
+  position: fixed;
+  padding: 4rem;
+  top: 0;
+  left: 0;
+  max-width: 250px;
+  background-color: 'transparent';
+}
+
+.logo {
+  width: 150px;
+}
+
+.info p {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.35;
+  /* letter-spacing: 0.5px; */
+  max-width: 330px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Matter from "matter-js";
 
 import "./App.css";
@@ -58,10 +57,8 @@ class Scene extends React.Component {
 
     const w = 20;
     const extraLength = 1;
-    const initialRotation = 0;
     const sides = 100;
     const radius = 280;
-    const options = {};
     const theta = (2 * Math.PI) / sides;
     const sideLength = ((2 * radius * theta) / 2) * extraLength;
 

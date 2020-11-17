@@ -29,9 +29,7 @@ class Scene extends React.Component {
       Mouse = Matter.Mouse,
       MouseConstraint = Matter.MouseConstraint;
 
-    var engine = Engine.create({
-
-    });
+    var engine = Engine.create({});
 
     let width = 600;
     let height = 600;

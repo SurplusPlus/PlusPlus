@@ -223,9 +223,10 @@ class Scene extends React.Component {
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLScDeWeCV86EN3ECMOdNRLxANv0Wt6I4vsAtxEzfMyTAG2SO6g/viewform"
               target="_blank"
+              rel="noopener noreferrer"
             >
               {" "}
-              <button className="button">hire us</button>
+              <button className="button">work with us</button>
             </a>
             <div>
               <div className="slidingVertical">

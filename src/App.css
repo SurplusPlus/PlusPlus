@@ -248,3 +248,65 @@
 .canvas canvas {
   background: transparent !important;
 }
+li {
+  list-style: none;
+}
+li:before {
+    content: "+";
+    margin-right: 10px;
+    color: lightyellow;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 610px) {
+    .logo {
+      margin-bottom: 3.6em;
+    } 
+    p {
+      font-size: 1.4em;
+    }
+    .info {
+      position: relative;
+      padding: 5rem 1.5rem 4rem;
+      max-width: 100%;
+      display: block;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+  }
+  .rolodex {
+    display: block;
+    position: relative;
+  }
+  .rolodex a {
+    margin: 50px 0 30px;
+    position: relative;
+    display: block;
+    text-align: center;
+  }
+  .button {
+    font-size: 2.2em;
+  }
+  .small {
+    font-size: 1em;
+  }
+  .slidingVertical {
+    display: block;
+    height: 115px;
+    margin-bottom: 30px;
+  }
+  #sent_practice {
+    width: 60%;
+    display: block;
+  }
+  ul {
+    padding-inline-start: 10px;
+  }
+  li {
+    margin: 20px 0;
+  }
+  .canvas {
+    display: none;
+  }
+}

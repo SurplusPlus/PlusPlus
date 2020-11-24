@@ -211,7 +211,7 @@ class Scene extends React.Component {
             our love of learning from and working with each other.
             <br />
             <br />
-            Our practice is mission-driven:
+            <span id="sent_practice">Our practice is mission-driven:</span>
             <ul>
               <li>we think and make as a collective</li>
               <li>we actively seek to redistribute wealth and labor</li>
@@ -245,9 +245,13 @@ class Scene extends React.Component {
           <p className="small">
             A percentage of every payment we receive will go towards subsidizing
             studio spaces in Soft Surplus for Black members and towards Black
-            led organizations we love & support. The goal of Surplus+ is to
+            led organizations we love & support.
+            <br /><br />
+            The goal of Surplus+ is to
             create structures for reducing barriers to access and participation
-            in creative community spaces. We are designing our bylaws to become
+            in creative community spaces.
+            <br /><br />
+             We are designing our bylaws to become
             a worker-owned cooperative in the State of New York.
           </p>
         </div>
